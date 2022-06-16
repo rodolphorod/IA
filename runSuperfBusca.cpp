@@ -54,7 +54,7 @@ int main(int argc, char **argv) {
 //	glutIdleFunc(display);
 
 	// Gatilho de Execucao dos Players.
-	glutTimerFunc(0.6, run_Players, 0);
+	glutTimerFunc(1, run_Players, 0);
 
 	init_Config();
 

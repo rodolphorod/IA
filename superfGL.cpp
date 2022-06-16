@@ -147,7 +147,7 @@ void run_Players(int lixo) {
 		tempoBusca.count++;
 
 		glutPostRedisplay();
-		glutTimerFunc(0.6, run_Players, 0);
+		glutTimerFunc(1, run_Players, 0);
 	}
 	else {
 		// Realiza verificacao final dos resultados encontrados.
